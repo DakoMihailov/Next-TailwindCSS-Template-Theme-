@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.revealX{
+  position: relative;
+  transform: translateX(40px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.revealX.active{
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.revealY{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.revealY.active{
+  transform: translateY(0);
+  opacity: 1;
+}
